@@ -1,0 +1,198 @@
+body{
+    font-family: 'Times New Roman', Times, serif; 
+    border: 5px solid rgb(255, 119, 0);
+    border-radius: 20px 20px;
+}
+.intro{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+    cursor: pointer;
+}
+ul li{
+    font-size: 20px;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.header{
+    background-image: url('file:///C:/Users/Administrator.STUDENT-23/Desktop/Elvin-code/Intro-to-web/Resume7-2/Images/modern-background-with-lines.jpg'), url('file:///C:/Users/Administrator.STUDENT-23/Desktop/Elvin-code/Intro-to-web/Resume7-2Images/modern-background-with-lines.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    color: #fff;    
+    padding-top: 100px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.header .name{
+    font-size: 60px;
+}
+.navigation{
+    color: #000;
+    background-color: rgb(79, 112, 246);
+    width: 350px;
+    height: 2000px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+    position: absolute;
+    box-sizing: border-box;
+}
+.navigation nav .menu{
+    margin-left: 70px;
+    font-size: 30px;
+}
+.navigation nav ul li{
+    list-style: none;
+}
+.navigation nav ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 30px;
+}
+.navigation nav ul li a:hover{
+    color: white;
+    font-size: larger;
+}
+.main{
+    margin: 0 100px 0 100px;
+    padding-left: 300px;
+}
+.main h2{
+    font-size: 30px;
+    color: royalblue;
+}
+.main h3{
+    font-size: 23px;
+}
+#education{
+    padding: 30px 0 30px 0;
+}
+#education a{
+    color: rgba(10, 110, 10, 0.638);
+    text-decoration: none;
+}
+#experience{
+    padding-bottom: 30px;
+}
+#experience p{
+    font-size: 16px;
+}
+#experience p span{
+    font-size: 22px;
+    color: red;
+}
+#skills{
+    padding-bottom: 30px;
+}
+#contact-details{
+    background-color: gray;
+    padding: 50px 40px 30px 40px;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    z-index: 2;
+}
+#contact-details h2{
+    font-size: 30px;
+    margin: 0 100px 20px 100px;
+    color: #fff;
+}
+#contact-details p{
+    padding-bottom: 30px;
+}
+#contact-details .contact-icons{
+    position: relative;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+}
+#contact-details .contact-icons ul li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30px;
+    margin: 10px;
+}
+#contact-details .contact-icons ul li a{
+    margin: 1px;
+}
+#contact-details a{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    margin: 0 100px 0px 100px;
+}
+#contact-details button{
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 350px;
+    position: absolute;
+    box-shadow: 0 0 5px 2px rgb(255, 119, 0);
+}
+#contact-details button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#contact-details button a{
+    text-decoration: none;
+    list-style: none;
+}
+#contact-details form{
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    line-height: 3;
+}
+#contact-details form input{
+    width: 100%;
+    padding: 5px -30px 5px 5px;
+    border-radius: 7px;
+}
+#contact-details form .gender{
+    display: flex;
+    width: 50px;
+    font-size: 16px;
+    padding: 1px;
+    height: 45px;
+}
+#contact-details form select{
+    display: flex;
+    border-radius: 10px;
+}
+#contact-details form input[type=submit]{
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(45, 155, 45);
+    cursor: pointer;
+}
+#contact-details form p{
+    font-size: 16px;
+    padding: 1px;
+}
+#contact-details form textarea{
+    border-radius: 10px;
+}
+#contact-details form input[type=submit]:hover{
+    background-color: green;
+}
